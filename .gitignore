@@ -1,0 +1,39 @@
+# Data files required by the assignment
+data/
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/*
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# Generated reports and models
+reports/figures/
+models/
+*.pkl
+*.joblib
