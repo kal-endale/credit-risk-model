@@ -1,0 +1,29 @@
+{
+  "numeric_features": [
+    "average_signed_amount",
+    "std_signed_amount",
+    "minimum_signed_amount",
+    "maximum_signed_amount",
+    "average_transaction_value",
+    "std_transaction_value",
+    "minimum_transaction_value",
+    "maximum_transaction_value",
+    "debit_transaction_count",
+    "debit_ratio",
+    "unique_products",
+    "unique_product_categories",
+    "unique_channels",
+    "unique_providers",
+    "active_days",
+    "active_span_days",
+    "average_transaction_hour",
+    "weekend_transaction_ratio",
+    "night_transaction_ratio"
+  ],
+  "categorical_features": [
+    "dominant_product_category",
+    "dominant_channel",
+    "dominant_provider",
+    "dominant_pricing_strategy"
+  ]
+}
